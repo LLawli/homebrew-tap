@@ -12,7 +12,7 @@ class Xclaude < Formula
     on_intel do
       # No prebuilt Intel-macOS binary is published — build from source.
       url "https://github.com/LLawli/XClaudeDashboard/archive/refs/tags/v0.1.0.tar.gz"
-      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      sha256 "df609e2ceef660d887c39fcf0f3ce1c357e0deb52d2f62a11c509ea8707bd6a0"
       depends_on "rust" => :build
     end
   end
