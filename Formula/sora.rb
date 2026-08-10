@@ -1,8 +1,8 @@
 class Sora < Formula
   desc "Distrobox commands as if they were native host commands"
   homepage "https://github.com/LLawli/sora"
-  url "https://github.com/LLawli/sora/releases/download/v0.1.1/sora-0.1.1.tar.gz"
-  sha256 "0d074d90b0f5a3bf83d40b0d9ef87a72bdd17f64d794bca4e33fc8c7b4dc6e2b"
+  url "https://github.com/LLawli/sora/releases/download/v0.1.2/sora-0.1.2.tar.gz"
+  sha256 "8652d766c2bf036e294da979664078ccc884ff3445db4754ac24fc226491a6b7"
   license "MIT"
 
   def install
