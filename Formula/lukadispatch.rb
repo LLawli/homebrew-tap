@@ -1,4 +1,4 @@
-# Fórmula do tap LLawli/homebrew-tap. A release preenche 0.2.0 e 816fb4a7361243541f414b0ce422310064f06d513e48612223bb27501f75d6b0 e a publica lá;
+# Fórmula do tap LLawli/homebrew-tap. A release preenche 0.2.1 e 8d96475851978b7d4e42b536746f9b1da619c7a2befd216d4e52fe6d2339453e e a publica lá;
 # este arquivo é o modelo, versionado junto com o código que ele compila.
 #
 # Compila do código-fonte em vez de reaproveitar o tarball: o binário da release linka a gtk4 do
@@ -6,8 +6,8 @@
 class Lukadispatch < Formula
   desc "Conversa com as sessões de Claude Code da sua máquina pelo Telegram"
   homepage "https://github.com/LLawli/lukadispatch"
-  url "https://github.com/LLawli/lukadispatch/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "816fb4a7361243541f414b0ce422310064f06d513e48612223bb27501f75d6b0"
+  url "https://github.com/LLawli/lukadispatch/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "8d96475851978b7d4e42b536746f9b1da619c7a2befd216d4e52fe6d2339453e"
   license "MIT"
   head "https://github.com/LLawli/lukadispatch.git", branch: "master"
 
