@@ -7,20 +7,21 @@
 class Lukadispatch < Formula
   desc "Conversa com as sessões de Claude Code da sua máquina pelo Telegram"
   homepage "https://github.com/LLawli/lukadispatch"
-  version "0.2.3"
+  version "0.3.0"
   license "MIT"
 
+  # Cada sessão roda no tmux ou no herdr, e basta um dos dois. O brew não expressa "um ou
+  # outro", então nenhum vira dependência: o setup confere o que a máquina tem e avisa.
   depends_on :linux
-  depends_on "tmux"
 
   on_linux do
     on_intel do
-      url "https://github.com/LLawli/lukadispatch/releases/download/v0.2.3/lukadispatch-linux-x86_64.tar.gz"
-      sha256 "85e40ff10f20f585ea424040132c9e67dad0d991a8b881eaeb8590c5ddf8011e"
+      url "https://github.com/LLawli/lukadispatch/releases/download/v0.3.0/lukadispatch-linux-x86_64.tar.gz"
+      sha256 "c9fda9abafc550952005cb86c40a93e8ef535b23042f98d2c497433b58ab3598"
     end
     on_arm do
-      url "https://github.com/LLawli/lukadispatch/releases/download/v0.2.3/lukadispatch-linux-aarch64.tar.gz"
-      sha256 "d16d30fa4188cbe4c5e80f1b08d8fe3f9dba4fda133a8d051b9cb0ecb52b7e2f"
+      url "https://github.com/LLawli/lukadispatch/releases/download/v0.3.0/lukadispatch-linux-aarch64.tar.gz"
+      sha256 "f37b2da9320ed763131127a59a53632fb1e3845b912c40ff44714d6075d751c6"
     end
   end
 
@@ -34,6 +35,9 @@ class Lukadispatch < Formula
 
   def caveats
     <<~EOS
+      As sessões rodam no tmux ou no herdr (https://herdr.dev); instale um dos dois.
+      O setup usa o tmux se houver, senão o herdr.
+
       O setup cria o bot, o grupo e o config conversando, e liga o serviço:
         lukadispatch setup
 
