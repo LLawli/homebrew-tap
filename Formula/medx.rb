@@ -1,28 +1,28 @@
 class Medx < Formula
   desc "CLI e servidor MCP para a MedX, sistema de gestão de clínicas"
   homepage "https://github.com/LLawli/medx-sdk-oss"
-  version "0.1.0"
+  version "0.1.1"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/LLawli/medx-sdk-oss/releases/download/v0.1.0/medx-aarch64-apple-darwin.tar.gz"
-      sha256 "c66e4dcddc9f025ea457a16a9ff7b0881b85d8f827393ad072f8e38c0b2a8d0e"
+      url "https://github.com/LLawli/medx-sdk-oss/releases/download/v0.1.1/medx-aarch64-apple-darwin.tar.gz"
+      sha256 "95289d39abc6ce0d7fe10e77126f4ca7a9f5d743345cc90b70f5b93930a5329e"
     end
     on_intel do
-      url "https://github.com/LLawli/medx-sdk-oss/releases/download/v0.1.0/medx-x86_64-apple-darwin.tar.gz"
-      sha256 "a6beee9fa4b085936652c708b0d053a7fd8b6fabd09fcdb8cbb901e61fbaa0de"
+      url "https://github.com/LLawli/medx-sdk-oss/releases/download/v0.1.1/medx-x86_64-apple-darwin.tar.gz"
+      sha256 "d8a850e7935c056090fa4ed6343ad491dfcfc100c41a5ce84094c531fd8b6e4e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/LLawli/medx-sdk-oss/releases/download/v0.1.0/medx-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5873696efebeb8808af55f92efc2627145a09a715849d7ac2fa1428d509f4b8b"
+      url "https://github.com/LLawli/medx-sdk-oss/releases/download/v0.1.1/medx-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b7f4cbd1121e59c7e1e2bb1fd4c7b40f8c5957d2f1dd49c84fb6a233c1c365c2"
     end
     on_intel do
-      url "https://github.com/LLawli/medx-sdk-oss/releases/download/v0.1.0/medx-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "617143bfd2897e6503689a54f86bdfd4922891f232379ea53d58845474064cc5"
+      url "https://github.com/LLawli/medx-sdk-oss/releases/download/v0.1.1/medx-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d4ec9dbb53fb1e6cea60d4ce7cb1ab2a9470d2414e2d7ef9b990068eb1071da0"
     end
   end
 
